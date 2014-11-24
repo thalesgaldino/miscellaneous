@@ -20,14 +20,19 @@ import javax.imageio.ImageIO;
 
 import org.apache.batik.ext.awt.RenderingHintsKeyExt;
 
+/**
+* This class provides a solution for scale SVG images in series
+*/
 public class Converter {
 
 	
 	static SvgImage svi;
-	///media/DATA/others/BN/kris/NEW_AURORA_DESIGN/Elements For Screens/Favourites Screen
-	static String DIR_INPUT = "/media/DATA/others/BN/kris/NEW_AURORA_DESIGN/Elements For Screens/Favourites Screen/";
-	///media/DATA/test3/result/hdpi/set_tim_scr
-	static String DIR_OUTPUT = "/media/DATA/test3/result/xhdpi/fav_scr/";
+	///e.g.: media/DATA/others/BN/kris/NEW_AURORA_DESIGN/Elements For Screens/Favourites Screen
+	//Input folder
+	static String DIR_INPUT = "/input_path/";
+	///e.g.: media/DATA/test3/result/hdpi/set_tim_scr
+	//Output folder
+	static String DIR_OUTPUT = "/output_path/";
 	static int NEW_RES = 720;
 	
 	/**
